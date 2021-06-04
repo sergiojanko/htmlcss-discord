@@ -13,3 +13,74 @@ body{
     clear: both;
     display: table;
 }
+
+/* Utilities */
+
+.w-20{
+    width: 20%;
+}
+.w-60{
+    width: 60%;
+}
+.w-50{
+    width: 50%;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.col{
+    float: left;
+}
+
+/* Header */
+header{
+    color: white;
+    background-color: #3161E0;
+}
+
+header .top-bar{
+    height: 80px;
+    line-height: 80px;
+}
+
+header .jumbotron{
+    height: 600px;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+.top-menu li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.top-bar a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-bar .top-menu a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn.btn-white{
+    background-color: #fff;
+    color: black;
+}
