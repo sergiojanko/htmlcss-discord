@@ -17,11 +17,16 @@ body{
 /* Utilities */
 .container{
     margin: 0 auto;
-    width: 70%;
 }
 
+.w-15{
+    width: 15%;
+}
 .w-20{
     width: 20%;
+}
+.w-33{
+    width: calc(100% / 3);
 }
 .w-40{
     width: 40%;
@@ -72,12 +77,23 @@ body{
     background-color: black;
     color: white;
 }
+.btn.btn-purple{
+    background-color: #8EA1E1;
+}
 .btn.btn-small{
     padding: 10px 20px;
 }
 .btn.btn-big{
     border-radius: 50px;
     padding: 20px 40px;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position:absolute
 }
 
 /* Header */
@@ -180,3 +196,61 @@ section .container .col .sect-text{
     margin: 30px auto;
 }
 
+#download-sect{
+    margin-bottom: 50px;
+}
+#download-sect .btn{
+    width: 100%;
+}
+#download-sect h2{
+    padding: 20px 0;
+}
+#download-sect p{
+    line-height: 1.5em;
+}
+#download-sect img{
+object-position: center;
+width: 100%;}
+#download-sect .download-container .buttondiv{
+    line-height: 3em;
+    width: 100%;
+}
+#download-sect .download-container {
+text-align: center;
+position: relative;
+left: 33%;
+margin-bottom: 50px;
+}
+/* Footer */
+
+footer{
+    background-color: #23272A;
+    color: #fff;
+    height: 70vh;
+    padding-top: 50px;
+}
+
+footer h2{
+    color: #7289DA;
+    font-size: 3em;
+    padding-bottom: 10px;
+}
+footer .container{
+    margin-top: 50px;
+}
+footer ul li{
+list-style-type: none;
+padding: 10px;
+}
+footer ul li:first-child{
+    font-size: 1.8em;
+    font-weight: 800;
+    color: #7289DA;padding-bottom: 15px;
+}
+footer .social{
+    padding-top: 10px;
+}
+footer .col.w-40 img{
+    width: 30px;
+    padding-right: 5px;
+}
