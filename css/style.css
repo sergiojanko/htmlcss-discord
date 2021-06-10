@@ -203,6 +203,7 @@ section .container .col .sect-text{
     width: 100%;
 }
 #download-sect h2{
+    font-size: 2.7em;
     padding: 20px 0;
 }
 #download-sect p{
